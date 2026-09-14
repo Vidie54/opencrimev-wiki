@@ -1,274 +1,274 @@
 [
-    {
-        "name": "admins",
-        "help": "Show a list of online administrators",
-        "aliases": [],
-        "args": [],
-        "group": "user"
-    },
-    {
-        "name": "animation",
-        "help": "Open the animations / emotes menu",
-        "aliases": [
-            "animations"
-        ],
-        "args": [],
-        "group": "user"
-    },
-    {
-        "name": "bounties",
-        "help": "Check the list of players with a bounty on their head",
-        "aliases": [
-            "hitlist"
-        ],
-        "args": [],
-        "group": "user"
-    },
-    {
-        "name": "bounty",
-        "help": "Place a money bounty on a player's head",
-        "aliases": [
-            "setbounty"
-        ],
-        "args": [],
-        "group": "user"
-    },
-    {
-        "name": "canceljob",
-        "help": "Cancel your active side mission.",
-        "aliases": [
-            "cancelmission"
-        ],
-        "args": [],
-        "group": "user"
-    },
-    {
-        "name": "cops",
-        "help": "Show who is on duty with the LSPD.",
-        "aliases": [
-            "officers",
-            "police",
-            "wanted"
-        ],
-        "args": [],
-        "group": "user"
-    },
-    {
-        "name": "event",
-        "help": "Displays active events and bonuses",
-        "aliases": [],
-        "args": [],
-        "group": "user"
-    },
-    {
-        "name": "events",
-        "help": "Show active and upcoming server events.",
-        "aliases": [],
-        "args": [],
-        "group": "user"
-    },
-    {
-        "name": "fare",
-        "help": "Set a taxi fare per kilometer (Max $1000)",
-        "aliases": [],
-        "args": [],
-        "group": "user"
-    },
-    {
-        "name": "help",
-        "help": "Open the wiki. /help <page> jumps straight to a page, e.g. /help police.",
-        "aliases": [],
-        "args": [],
-        "group": "user"
-    },
-    {
-        "name": "id",
-        "help": "Displays your server ID",
-        "aliases": [],
-        "args": [],
-        "group": "user"
-    },
-    {
-        "name": "info",
-        "help": "Open your personal statistics",
-        "aliases": [],
-        "args": [],
-        "group": "user"
-    },
-    {
-        "name": "invite",
-        "help": "Let a nearby player into the property you own (garage or house).",
-        "aliases": [],
-        "args": [],
-        "group": "user"
-    },
-    {
-        "name": "joblist",
-        "help": "Open job list menu.",
-        "aliases": [
-            "jobs"
-        ],
-        "args": [],
-        "group": "user"
-    },
-    {
-        "name": "kill",
-        "help": "Commit suicide",
-        "aliases": [
-            "suicide"
-        ],
-        "args": [],
-        "group": "user"
-    },
-    {
-        "name": "leaderboards",
-        "help": "Open the server leaderboards",
-        "aliases": [
-            "top"
-        ],
-        "args": [],
-        "group": "user"
-    },
-    {
-        "name": "leavegang",
-        "help": "Quit your current job or leave your gang.",
-        "aliases": [
-            "leavejob",
-            "quitjob"
-        ],
-        "args": [],
-        "group": "user"
-    },
-    {
-        "name": "local",
-        "help": "Local message for players in 20m radius",
-        "aliases": [],
-        "args": [],
-        "group": "user"
-    },
-    {
-        "name": "lock",
-        "help": "Lock the nearest vehicle, or lock it for a specific ID",
-        "aliases": [],
-        "args": [],
-        "group": "user"
-    },
-    {
-        "name": "medic",
-        "help": "Show which paramedics are on duty.",
-        "aliases": [
-            "paramedic"
-        ],
-        "args": [],
-        "group": "user"
-    },
-    {
-        "name": "message",
-        "help": "Send a private message to a player",
-        "aliases": [
-            "msg",
-            "pm"
-        ],
-        "args": [],
-        "group": "user"
-    },
-    {
-        "name": "newplayers",
-        "help": "Show players currently under New Player Protection",
-        "aliases": [
-            "passive",
-            "protection"
-        ],
-        "args": [],
-        "group": "user"
-    },
-    {
-        "name": "ocversion",
-        "help": "Show gamemode and resource component versions",
-        "aliases": [
-            "versions"
-        ],
-        "args": [],
-        "group": "user"
-    },
-    {
-        "name": "ping",
-        "help": "Displays your connection latency",
-        "aliases": [],
-        "args": [],
-        "group": "user"
-    },
-    {
-        "name": "properties",
-        "help": "Open your properties list",
-        "aliases": [],
-        "args": [],
-        "group": "user"
-    },
-    {
-        "name": "r",
-        "help": "Quick reply to the last private message",
-        "aliases": [
-            "re",
-            "reply"
-        ],
-        "args": [],
-        "group": "user"
-    },
-    {
-        "name": "refreshrewards",
-        "help": "Claim any pending rewards.",
-        "aliases": [],
-        "args": [],
-        "group": "user"
-    },
-    {
-        "name": "report",
-        "help": "Report an issue or player: /report [Optional ID] [Reason]",
-        "aliases": [],
-        "args": [],
-        "group": "user"
-    },
-    {
-        "name": "stats",
-        "help": "Open your personal statistics",
-        "aliases": [],
-        "args": [],
-        "group": "user"
-    },
-    {
-        "name": "taxi",
-        "help": "Request a taxi to your location",
-        "aliases": [],
-        "args": [],
-        "group": "user"
-    },
-    {
-        "name": "timestamp",
-        "help": "Show/hide timestamp in chat.",
-        "aliases": [],
-        "args": [],
-        "group": "user"
-    },
-    {
-        "name": "uninvite",
-        "help": "Take back the property invites you gave a player.",
-        "aliases": [],
-        "args": [],
-        "group": "user"
-    },
-    {
-        "name": "unlock",
-        "help": "Unlock the nearest vehicle, or unlock it for a specific ID",
-        "aliases": [],
-        "args": [],
-        "group": "user"
-    },
-    {
-        "name": "vehicles",
-        "help": "Open your vehicles list",
-        "aliases": [],
-        "args": [],
-        "group": "user"
-    }
+  {
+    "name": "admins",
+    "aliases": [],
+    "help": "Show a list of online administrators",
+    "args": [],
+    "group": "user"
+  },
+  {
+    "name": "animations",
+    "aliases": [
+      "animation"
+    ],
+    "help": "Open the animations / emotes menu",
+    "args": [],
+    "group": "user"
+  },
+  {
+    "name": "bounties",
+    "aliases": [
+      "hitlist"
+    ],
+    "help": "Check the list of players with a bounty on their head",
+    "args": [],
+    "group": "user"
+  },
+  {
+    "name": "bounty",
+    "aliases": [
+      "setbounty"
+    ],
+    "help": "Place a money bounty on a player's head",
+    "args": [],
+    "group": "user"
+  },
+  {
+    "name": "cancelmission",
+    "aliases": [
+      "canceljob"
+    ],
+    "help": "Cancel your active side mission.",
+    "args": [],
+    "group": "user"
+  },
+  {
+    "name": "event",
+    "aliases": [],
+    "help": "Displays active events and bonuses",
+    "args": [],
+    "group": "user"
+  },
+  {
+    "name": "events",
+    "aliases": [],
+    "help": "Show active and upcoming server events.",
+    "args": [],
+    "group": "user"
+  },
+  {
+    "name": "fare",
+    "aliases": [],
+    "help": "Set your taxi fare per kilometre (there is a maximum).",
+    "args": [],
+    "group": "user"
+  },
+  {
+    "name": "help",
+    "aliases": [],
+    "help": "Open the wiki. /help <page> jumps straight to a page, e.g. /help police.",
+    "args": [],
+    "group": "user"
+  },
+  {
+    "name": "id",
+    "aliases": [],
+    "help": "Displays your server ID",
+    "args": [],
+    "group": "user"
+  },
+  {
+    "name": "info",
+    "aliases": [],
+    "help": "Open your personal statistics",
+    "args": [],
+    "group": "user"
+  },
+  {
+    "name": "invite",
+    "aliases": [],
+    "help": "Let a nearby player into the property you own (garage or house).",
+    "args": [],
+    "group": "user"
+  },
+  {
+    "name": "jobs",
+    "aliases": [
+      "joblist"
+    ],
+    "help": "Open job list menu.",
+    "args": [],
+    "group": "user"
+  },
+  {
+    "name": "kill",
+    "aliases": [
+      "suicide"
+    ],
+    "help": "Commit suicide",
+    "args": [],
+    "group": "user"
+  },
+  {
+    "name": "local",
+    "aliases": [],
+    "help": "Local message for players in 20m radius",
+    "args": [],
+    "group": "user"
+  },
+  {
+    "name": "lock",
+    "aliases": [],
+    "help": "Lock the nearest vehicle, or lock it for a specific ID",
+    "args": [],
+    "group": "user"
+  },
+  {
+    "name": "newplayers",
+    "aliases": [
+      "passive",
+      "protection"
+    ],
+    "help": "Show players currently under New Player Protection",
+    "args": [],
+    "group": "user"
+  },
+  {
+    "name": "paramedic",
+    "aliases": [
+      "medic"
+    ],
+    "help": "Show which paramedics are on duty.",
+    "args": [],
+    "group": "user"
+  },
+  {
+    "name": "ping",
+    "aliases": [],
+    "help": "Displays your connection latency",
+    "args": [],
+    "group": "user"
+  },
+  {
+    "name": "pm",
+    "aliases": [
+      "msg",
+      "message"
+    ],
+    "help": "Send a private message to a player",
+    "args": [],
+    "group": "user"
+  },
+  {
+    "name": "properties",
+    "aliases": [],
+    "help": "Open your properties list",
+    "args": [],
+    "group": "user"
+  },
+  {
+    "name": "quitjob",
+    "aliases": [
+      "leavejob",
+      "leavegang"
+    ],
+    "help": "Quit your current job or leave your gang.",
+    "args": [],
+    "group": "user"
+  },
+  {
+    "name": "r",
+    "aliases": [
+      "re",
+      "reply"
+    ],
+    "help": "Quick reply to the last private message",
+    "args": [],
+    "group": "user"
+  },
+  {
+    "name": "refreshrewards",
+    "aliases": [],
+    "help": "Claim any pending rewards.",
+    "args": [],
+    "group": "user"
+  },
+  {
+    "name": "report",
+    "aliases": [],
+    "help": "Report an issue or player: /report [Optional ID] [Reason]",
+    "args": [],
+    "group": "user"
+  },
+  {
+    "name": "stats",
+    "aliases": [],
+    "help": "Open your personal statistics",
+    "args": [],
+    "group": "user"
+  },
+  {
+    "name": "taxi",
+    "aliases": [],
+    "help": "Request a taxi to your location",
+    "args": [],
+    "group": "user"
+  },
+  {
+    "name": "timestamp",
+    "aliases": [],
+    "help": "Show/hide timestamp in chat.",
+    "args": [],
+    "group": "user"
+  },
+  {
+    "name": "top",
+    "aliases": [
+      "leaderboards"
+    ],
+    "help": "Open the server leaderboards",
+    "args": [],
+    "group": "user"
+  },
+  {
+    "name": "uninvite",
+    "aliases": [],
+    "help": "Take back the property invites you gave a player.",
+    "args": [],
+    "group": "user"
+  },
+  {
+    "name": "unlock",
+    "aliases": [],
+    "help": "Unlock the nearest vehicle, or unlock it for a specific ID",
+    "args": [],
+    "group": "user"
+  },
+  {
+    "name": "vehicles",
+    "aliases": [],
+    "help": "Open your vehicles list",
+    "args": [],
+    "group": "user"
+  },
+  {
+    "name": "versions",
+    "aliases": [
+      "ocversion"
+    ],
+    "help": "Show gamemode and resource component versions",
+    "args": [],
+    "group": "user"
+  },
+  {
+    "name": "wanted",
+    "aliases": [
+      "cops",
+      "police",
+      "officers"
+    ],
+    "help": "Show who is on duty with the LSPD.",
+    "args": [],
+    "group": "user"
+  }
 ]

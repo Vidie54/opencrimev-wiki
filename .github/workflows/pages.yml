@@ -1,0 +1,60 @@
+# Build the wiki and deploy it to GitHub Pages.
+#
+# push to main  -> build + deploy
+# pull request  -> build only (the PR check)
+#
+# The site root is: web/index.html (as index.html), renderer/, dist/, assets/,
+# CNAME. Settings -> Pages -> Source must be "GitHub Actions".
+name: pages
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0   # git dates for "last updated"
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Build
+        run: python tools/build.py --render
+      - name: Assemble site
+        run: |
+          mkdir -p _site
+          cp web/index.html _site/index.html
+          cp -r renderer dist assets _site/
+          if [ -f CNAME ]; then cp CNAME _site/; fi
+          touch _site/.nojekyll
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    if: github.event_name != 'pull_request'
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

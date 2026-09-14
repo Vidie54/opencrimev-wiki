@@ -1,0 +1,51 @@
+{
+  "site": {
+    "name": "OpenCrimeV Wiki",
+    "discord": "https://discord.gg/PMQ8nUKTT8",
+    "website": "https://www.opencrimev.com",
+    "repo": "https://github.com/Vidie54/opencrimev-wiki",
+    "branch": "main"
+  },
+  "tree": [
+    { "page": "index", "title": "Welcome", "icon": "book" },
+    {
+      "category": "getting-started", "title": "Getting Started", "icon": "flag",
+      "pages": ["first-login", "starter-pack", "new-player-protection", "hud-and-keys", "interaction-menu", "chat-and-voice"]
+    },
+    {
+      "category": "rules", "title": "Server Rules", "icon": "gavel",
+      "pages": ["general", "combat", "police", "gangs", "punishments"]
+    },
+    {
+      "category": "jobs", "title": "Jobs", "icon": "briefcase",
+      "pages": ["overview", "police", "paramedic", "taxi", "side-jobs", "gangs"]
+    },
+    {
+      "category": "crime", "title": "Crime", "icon": "skull",
+      "pages": ["wanted-level", "robberies", "vehicle-crime", "street-crime", "prison-and-impound", "bounties"]
+    },
+    {
+      "category": "economy", "title": "Economy", "icon": "dollar",
+      "pages": ["money", "levels-and-xp", "bonuses-and-events", "shops", "inventory"]
+    },
+    {
+      "category": "vehicles", "title": "Vehicles", "icon": "car",
+      "pages": ["owning", "garages", "customs", "public-transport"]
+    },
+    {
+      "category": "properties", "title": "Properties", "icon": "home",
+      "pages": ["houses", "rentals", "warehouses", "wardrobe-and-storage"]
+    },
+    {
+      "category": "activities", "title": "Activities", "icon": "trophy",
+      "pages": ["races", "shooting-range", "simeon-contracts", "events", "animations"]
+    },
+    {
+      "category": "controls", "title": "Controls & Commands", "icon": "keyboard",
+      "pages": ["keybinds", "commands"]
+    },
+    { "page": "faq", "title": "FAQ", "icon": "question" },
+    { "link": "https://www.opencrimev.com", "title": "Website", "icon": "globe" },
+    { "link": "https://discord.gg/PMQ8nUKTT8", "title": "Discord", "icon": "discord" }
+  ]
+}
