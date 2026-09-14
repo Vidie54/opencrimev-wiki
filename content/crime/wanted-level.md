@@ -1,5 +1,5 @@
 ---
-title: Wanted Level
+title: Wanted Level (TEST)
 description: How stars are earned, how they go away, and what self-defence means.
 icon: skull
 ---
