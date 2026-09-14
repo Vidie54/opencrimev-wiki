@@ -1,0 +1,1379 @@
+{
+    "commands": {
+        "interactionmenu": {
+            "keyboard": "M"
+        },
+        "chatScrollDown": {
+            "keyboard": "PAGE DOWN"
+        },
+        "open_help": {
+            "keyboard": "F4"
+        },
+        "+scoreboard": {
+            "keyboard": "F2"
+        },
+        "open_inventory": {
+            "keyboard": "I"
+        },
+        "toggleChatVis": {
+            "keyboard": "F7"
+        },
+        "map": {
+            "keyboard": "F1"
+        },
+        "togglevehiclelock": {
+            "keyboard": "L"
+        },
+        "vehiclecontrolsmenu": {
+            "keyboard": "U"
+        },
+        "+openHud": {
+            "keyboard": "Z"
+        },
+        "chatScrollUp": {
+            "keyboard": "PAGE UP"
+        },
+        "openChat": {
+            "keyboard": "T"
+        }
+    },
+    "controls": {
+        "INPUT_VEH_FLY_DUCK": {
+            "gamepad": "A",
+            "keyboard": "X"
+        },
+        "INPUT_SCRIPT_RB": {
+            "gamepad": "RB"
+        },
+        "INPUT_SCRIPT_LEFT_AXIS_Y": {
+            "gamepad": "LEFT STICK",
+            "keyboard": "S"
+        },
+        "INPUT_VEH_PUSHBIKE_PEDAL": {
+            "gamepad": "A",
+            "keyboard": "W"
+        },
+        "INPUT_VEH_SPECIAL": [],
+        "INPUT_DIVE": {
+            "gamepad": "RB",
+            "keyboard": "SPACEBAR"
+        },
+        "INPUT_VEH_SUB_ASCEND": {
+            "gamepad": "X",
+            "keyboard": "LEFT SHIFT"
+        },
+        "INPUT_VEH_FLY_PITCH_UP_ONLY": {
+            "gamepad": "LEFT STICK",
+            "keyboard": "NUMPAD 8"
+        },
+        "INPUT_VEH_GUN_LR": {
+            "gamepad": "RIGHT STICK",
+            "keyboard": "MOUSE RIGHT"
+        },
+        "INPUT_FRONTEND_LS": {
+            "gamepad": "L3",
+            "keyboard": "LEFT SHIFT"
+        },
+        "INPUT_VEH_SHUFFLE": {
+            "gamepad": "DPAD RIGHT",
+            "keyboard": "H"
+        },
+        "INPUT_VEH_PUSHBIKE_FRONT_BRAKE": {
+            "gamepad": "LT",
+            "keyboard": "Q"
+        },
+        "INPUT_CELLPHONE_SCROLL_BACKWARD": {
+            "keyboard": "SCROLLWHEEL UP"
+        },
+        "INPUT_FRONTEND_SELECT": {
+            "gamepad": "BACK",
+            "keyboard": "CAPSLOCK"
+        },
+        "INPUT_VEH_SLOWMO_UD": {
+            "gamepad": "LEFT STICK",
+            "keyboard": "SCROLLWHEEL DOWN"
+        },
+        "INPUT_WEAPON_WHEEL_LR": {
+            "gamepad": "RIGHT STICK",
+            "keyboard": "MOUSE RIGHT"
+        },
+        "INPUT_VEH_PASSENGER_AIM": {
+            "gamepad": "LT",
+            "keyboard": "RIGHT MOUSE BUTTON"
+        },
+        "INPUT_VEH_FLY_SELECT_PREV_WEAPON": {
+            "keyboard": "["
+        },
+        "INPUT_THROW_GRENADE": {
+            "gamepad": "DPAD LEFT",
+            "keyboard": "G"
+        },
+        "INPUT_CONTEXT": {
+            "gamepad": "DPAD RIGHT",
+            "keyboard": "E"
+        },
+        "INPUT_VEH_PUSHBIKE_REAR_BRAKE": {
+            "gamepad": "RT",
+            "keyboard": "S"
+        },
+        "INPUT_MP_TEXT_CHAT_ALL": {
+            "keyboard": "T"
+        },
+        "INPUT_RAPPEL_JUMP": {
+            "gamepad": "A"
+        },
+        "INPUT_FRONTEND_ENDSCREEN_EXPAND": {
+            "gamepad": "X",
+            "keyboard": "SPACEBAR"
+        },
+        "INPUT_PREV_WEAPON": {
+            "gamepad": "DPAD LEFT",
+            "keyboard": "SCROLLWHEEL UP"
+        },
+        "INPUT_REPLAY_FOVDECREASE": {
+            "gamepad": "LB",
+            "keyboard": "NUMPAD -"
+        },
+        "INPUT_VEH_MOVE_UP_ONLY": {
+            "gamepad": "LEFT STICK",
+            "keyboard": "LEFT SHIFT"
+        },
+        "INPUT_DETONATE": {
+            "gamepad": "DPAD LEFT",
+            "keyboard": "G"
+        },
+        "INPUT_SNIPER_ZOOM_IN": {
+            "gamepad": "RIGHT STICK",
+            "keyboard": "["
+        },
+        "INPUT_VEH_FLY_THROTTLE_UP": {
+            "gamepad": "RT",
+            "keyboard": "W"
+        },
+        "INPUT_SNIPER_ZOOM_OUT_ALTERNATE": {
+            "gamepad": "LEFT STICK",
+            "keyboard": "["
+        },
+        "INPUT_MOVE_DOWN_ONLY": {
+            "gamepad": "LEFT STICK",
+            "keyboard": "S"
+        },
+        "INPUT_MOVE_UP": {
+            "gamepad": "LEFT STICK",
+            "keyboard": "S"
+        },
+        "INPUT_SCRIPT_RIGHT_AXIS_Y": {
+            "gamepad": "RIGHT STICK",
+            "keyboard": "MOUSE DOWN"
+        },
+        "INPUT_PARACHUTE_TURN_LR": {
+            "gamepad": "LEFT STICK",
+            "keyboard": "D"
+        },
+        "INPUT_MOVE_UP_ONLY": {
+            "gamepad": "LEFT STICK",
+            "keyboard": "W"
+        },
+        "INPUT_SCALED_LOOK_LEFT_ONLY": {
+            "gamepad": "RIGHT STICK"
+        },
+        "INPUT_VEH_ACCELERATE": {
+            "gamepad": "RT",
+            "keyboard": "W"
+        },
+        "INPUT_FRONTEND_SOCIAL_CLUB": {
+            "gamepad": "BACK",
+            "keyboard": "HOME"
+        },
+        "INPUT_CREATOR_MENU_TOGGLE": {
+            "keyboard": "LEFT SHIFT"
+        },
+        "INPUT_VEH_FLY_PITCH_DOWN_ONLY": {
+            "gamepad": "LEFT STICK",
+            "keyboard": "NUMPAD 5"
+        },
+        "INPUT_VEH_MOVE_LEFT_ONLY": {
+            "gamepad": "LEFT STICK",
+            "keyboard": "A"
+        },
+        "INPUT_AIM": {
+            "gamepad": "LT",
+            "keyboard": "RIGHT MOUSE BUTTON"
+        },
+        "INPUT_LOOK_LEFT": {
+            "gamepad": "RIGHT STICK",
+            "keyboard": "MOUSE RIGHT"
+        },
+        "INPUT_SELECT_PREV_WEAPON": {
+            "keyboard": "SCROLLWHEEL UP"
+        },
+        "INPUT_VEH_FLY_ATTACK": {
+            "gamepad": "A",
+            "keyboard": "RIGHT MOUSE BUTTON"
+        },
+        "INPUT_DROP_AMMO": {
+            "gamepad": "B",
+            "keyboard": "F10"
+        },
+        "INPUT_VEH_SUB_PITCH_DOWN_ONLY": {
+            "gamepad": "LEFT STICK",
+            "keyboard": "NUMPAD 5"
+        },
+        "INPUT_CREATOR_LS": {
+            "gamepad": "L3",
+            "keyboard": "R"
+        },
+        "INPUT_MAP": [],
+        "INPUT_REPLAY_SAVE": {
+            "gamepad": "START",
+            "keyboard": "F5"
+        },
+        "INPUT_SELECT_WEAPON_SPECIAL": {
+            "keyboard": "5"
+        },
+        "INPUT_SCRIPT_LB": {
+            "gamepad": "LB"
+        },
+        "INPUT_PARACHUTE_TURN_LEFT_ONLY": {
+            "gamepad": "LEFT STICK",
+            "keyboard": "A"
+        },
+        "INPUT_VEH_HYDRAULICS_CONTROL_DOWN": {
+            "gamepad": "LEFT STICK",
+            "keyboard": "LEFT CTRL"
+        },
+        "INPUT_SNIPER_ZOOM_IN_ONLY": {
+            "gamepad": "LEFT STICK",
+            "keyboard": "]"
+        },
+        "INPUT_VEH_MOVE_UP": {
+            "gamepad": "LEFT STICK",
+            "keyboard": "LEFT CTRL"
+        },
+        "INPUT_VEH_DUCK": {
+            "gamepad": "A",
+            "keyboard": "X"
+        },
+        "INPUT_QUAD_LOCO_REVERSE": {
+            "gamepad": "RB"
+        },
+        "INPUT_VEH_JUMP": {
+            "gamepad": "RB",
+            "keyboard": "SPACEBAR"
+        },
+        "INPUT_VEH_TRANSFORM": {
+            "gamepad": "A",
+            "keyboard": "X"
+        },
+        "INPUT_VEH_SUB_TURN_LEFT_ONLY": {
+            "gamepad": "LEFT STICK",
+            "keyboard": "NUMPAD 4"
+        },
+        "INPUT_VEH_PARACHUTE": {
+            "gamepad": "A",
+            "keyboard": "SPACEBAR"
+        },
+        "INPUT_VEH_FLY_BOMB_BAY": {
+            "gamepad": "DPAD RIGHT",
+            "keyboard": "E"
+        },
+        "INPUT_VEH_CINEMATIC_UP_ONLY": {
+            "keyboard": "SCROLLWHEEL UP"
+        },
+        "INPUT_INTERACTION_MENU": {
+            "gamepad": "BACK",
+            "keyboard": "M"
+        },
+        "INPUT_SCRIPT_RLEFT": {
+            "gamepad": "X",
+            "keyboard": "LEFT CTRL"
+        },
+        "INPUT_SCRIPT_PAD_LEFT": {
+            "gamepad": "DPAD LEFT",
+            "keyboard": "A"
+        },
+        "INPUT_MELEE_BLOCK": {
+            "gamepad": "X",
+            "keyboard": "SPACEBAR"
+        },
+        "INPUT_CELLPHONE_SCROLL_FORWARD": {
+            "keyboard": "SCROLLWHEEL DOWN"
+        },
+        "INPUT_VEH_FLY_ROLL_LR": {
+            "gamepad": "LEFT STICK",
+            "keyboard": "NUMPAD 6"
+        },
+        "INPUT_FRONTEND_RB": {
+            "gamepad": "RB",
+            "keyboard": "E"
+        },
+        "INPUT_FRONTEND_AXIS_X": {
+            "gamepad": "LEFT STICK",
+            "keyboard": "D"
+        },
+        "INPUT_CURSOR_Y": [],
+        "INPUT_MAP_POI": {
+            "gamepad": "Y",
+            "keyboard": "SCROLLWHEEL BUTTON"
+        },
+        "INPUT_CHARACTER_WHEEL": {
+            "gamepad": "DPAD DOWN",
+            "keyboard": "LEFT ALT"
+        },
+        "INPUT_SELECT_CHARACTER_TREVOR": {
+            "keyboard": "F7"
+        },
+        "INPUT_MOVE_LEFT": {
+            "gamepad": "LEFT STICK",
+            "keyboard": "D"
+        },
+        "INPUT_CELLPHONE_CANCEL": {
+            "gamepad": "B",
+            "keyboard": "BACKSPACE"
+        },
+        "INPUT_REPLAY_STARTPOINT": {
+            "keyboard": "B"
+        },
+        "INPUT_VEH_LOOK_RIGHT": {
+            "gamepad": "RIGHT STICK",
+            "keyboard": "MOUSE RIGHT"
+        },
+        "INPUT_MOVE_DOWN": {
+            "gamepad": "LEFT STICK",
+            "keyboard": "S"
+        },
+        "INPUT_SELECT": {
+            "gamepad": "BACK",
+            "keyboard": "V"
+        },
+        "INPUT_SPECIAL_ABILITY": {
+            "gamepad": "L3"
+        },
+        "INPUT_VEH_CINEMATIC_UD": {
+            "gamepad": "RIGHT STICK",
+            "keyboard": "MOUSE DOWN"
+        },
+        "INPUT_VEH_SUB_TURN_RIGHT_ONLY": {
+            "gamepad": "LEFT STICK",
+            "keyboard": "NUMPAD 6"
+        },
+        "INPUT_FRONTEND_RS": {
+            "gamepad": "R3",
+            "keyboard": "LEFT CTRL"
+        },
+        "INPUT_SCRIPT_LEFT_AXIS_X": {
+            "gamepad": "LEFT STICK",
+            "keyboard": "D"
+        },
+        "INPUT_VEH_FLY_UNDERCARRIAGE": {
+            "gamepad": "L3",
+            "keyboard": "G"
+        },
+        "INPUT_VEH_BRAKE": {
+            "gamepad": "LT",
+            "keyboard": "S"
+        },
+        "INPUT_MP_TEXT_CHAT_CREW": [],
+        "INPUT_FRONTEND_RDOWN": {
+            "gamepad": "A",
+            "keyboard": "ENTER"
+        },
+        "INPUT_ARREST": {
+            "gamepad": "Y",
+            "keyboard": "F"
+        },
+        "INPUT_REPLAY_TOGGLE_TIMELINE": {
+            "keyboard": "ESC"
+        },
+        "INPUT_VEH_SUB_TURN_HARD_RIGHT": {
+            "gamepad": "RB",
+            "keyboard": "D"
+        },
+        "INPUT_REPLAY_TIMELINE_PICKUP_CLIP": {
+            "keyboard": "X"
+        },
+        "INPUT_LOOK_UP": {
+            "gamepad": "RIGHT STICK",
+            "keyboard": "MOUSE DOWN"
+        },
+        "INPUT_VEH_GUN_DOWN": {
+            "gamepad": "RIGHT STICK",
+            "keyboard": "MOUSE RIGHT"
+        },
+        "INPUT_CELLPHONE_CAMERA_EXPRESSION": {
+            "gamepad": "L3",
+            "keyboard": "X"
+        },
+        "INPUT_MOVE_LEFT_ONLY": {
+            "gamepad": "LEFT STICK",
+            "keyboard": "A"
+        },
+        "INPUT_REPLAY_CLIP_DELETE": {
+            "gamepad": "Y",
+            "keyboard": "DELETE"
+        },
+        "INPUT_SPRINT": {
+            "gamepad": "A",
+            "keyboard": "LEFT SHIFT"
+        },
+        "INPUT_PARACHUTE_DETACH": {
+            "gamepad": "Y",
+            "keyboard": "F"
+        },
+        "INPUT_FRONTEND_ENDSCREEN_ACCEPT": {
+            "gamepad": "A",
+            "keyboard": "ENTER"
+        },
+        "INPUT_LOOK_UP_ONLY": {
+            "gamepad": "RIGHT STICK"
+        },
+        "INPUT_RADIO_WHEEL_UD": {
+            "gamepad": "RIGHT STICK",
+            "keyboard": "MOUSE DOWN"
+        },
+        "INPUT_VEH_FLY_ROLL_LEFT_ONLY": {
+            "gamepad": "LEFT STICK",
+            "keyboard": "NUMPAD 4"
+        },
+        "INPUT_VEH_HORN": {
+            "gamepad": "L3",
+            "keyboard": "E"
+        },
+        "INPUT_SNIPER_ZOOM_OUT": {
+            "gamepad": "RIGHT STICK",
+            "keyboard": "["
+        },
+        "INPUT_REPLAY_START_STOP_RECORDING": {
+            "gamepad": "A",
+            "keyboard": "F1"
+        },
+        "INPUT_PARACHUTE_BRAKE_RIGHT": {
+            "gamepad": "RB",
+            "keyboard": "E"
+        },
+        "INPUT_VEH_MOVE_UD": {
+            "gamepad": "LEFT STICK",
+            "keyboard": "LEFT CTRL"
+        },
+        "INPUT_SCRIPT_RRIGHT": {
+            "gamepad": "B",
+            "keyboard": "RIGHT MOUSE BUTTON"
+        },
+        "INPUT_CURSOR_SCROLL_DOWN": {
+            "keyboard": "SCROLLWHEEL DOWN"
+        },
+        "INPUT_VEH_HYDRAULICS_CONTROL_UD": {
+            "gamepad": "LEFT STICK",
+            "keyboard": "D"
+        },
+        "INPUT_RADIO_WHEEL_LR": {
+            "gamepad": "RIGHT STICK",
+            "keyboard": "MOUSE RIGHT"
+        },
+        "INPUT_CREATOR_RS": {
+            "gamepad": "R3",
+            "keyboard": "F"
+        },
+        "INPUT_VEH_SELECT_PREV_WEAPON": {
+            "keyboard": "["
+        },
+        "INPUT_VEH_FLY_ROLL_RIGHT_ONLY": {
+            "gamepad": "LEFT STICK",
+            "keyboard": "NUMPAD 6"
+        },
+        "INPUT_MOVE_LR": {
+            "gamepad": "LEFT STICK",
+            "keyboard": "D"
+        },
+        "INPUT_SCRIPT_RIGHT_AXIS_X": {
+            "gamepad": "RIGHT STICK",
+            "keyboard": "MOUSE RIGHT"
+        },
+        "INPUT_MP_TEXT_CHAT_FRIENDS": [],
+        "INPUT_FRONTEND_AXIS_Y": {
+            "gamepad": "LEFT STICK",
+            "keyboard": "S"
+        },
+        "INPUT_FRONTEND_LEFT": {
+            "gamepad": "DPAD LEFT",
+            "keyboard": "ARROW LEFT"
+        },
+        "INPUT_VEH_FLY_BOOST": {
+            "gamepad": "L3",
+            "keyboard": "LEFT SHIFT"
+        },
+        "INPUT_SELECT_WEAPON_SMG": {
+            "keyboard": "7"
+        },
+        "INPUT_DROP_WEAPON": {
+            "gamepad": "Y",
+            "keyboard": "F9"
+        },
+        "INPUT_MELEE_ATTACK_HEAVY": {
+            "gamepad": "A",
+            "keyboard": "Q"
+        },
+        "INPUT_VEH_SUB_PITCH_UP_ONLY": {
+            "gamepad": "LEFT STICK",
+            "keyboard": "NUMPAD 8"
+        },
+        "INPUT_SPECIAL_ABILITY_SECONDARY": {
+            "gamepad": "R3",
+            "keyboard": "B"
+        },
+        "INPUT_CELLPHONE_CAMERA_SELFIE": {
+            "gamepad": "R3",
+            "keyboard": "E"
+        },
+        "INPUT_SCRIPTED_FLY_UD": {
+            "gamepad": "LEFT STICK",
+            "keyboard": "S"
+        },
+        "INPUT_REPLAY_PAUSE": {
+            "gamepad": "A",
+            "keyboard": "SPACEBAR"
+        },
+        "INPUT_LOOK_RIGHT_ONLY": {
+            "gamepad": "RIGHT STICK",
+            "keyboard": "MOUSE RIGHT"
+        },
+        "INPUT_MOVE_UD": {
+            "gamepad": "LEFT STICK",
+            "keyboard": "S"
+        },
+        "INPUT_VEH_ATTACK": {
+            "gamepad": "RB",
+            "keyboard": "LEFT MOUSE BUTTON"
+        },
+        "INPUT_CELLPHONE_SELECT": {
+            "gamepad": "A",
+            "keyboard": "ENTER"
+        },
+        "INPUT_FRONTEND_DOWN": {
+            "gamepad": "DPAD DOWN",
+            "keyboard": "ARROW DOWN"
+        },
+        "INPUT_VEH_DRIVE_LOOK": {
+            "keyboard": "LEFT MOUSE BUTTON"
+        },
+        "INPUT_VEH_SPECIAL_ABILITY_FRANKLIN": {
+            "gamepad": "R3"
+        },
+        "INPUT_VEH_CINEMATIC_LR": {
+            "gamepad": "RIGHT STICK",
+            "keyboard": "MOUSE RIGHT"
+        },
+        "INPUT_CONTEXT_SECONDARY": {
+            "gamepad": "DPAD LEFT",
+            "keyboard": "Q"
+        },
+        "INPUT_PARACHUTE_PITCH_DOWN_ONLY": {
+            "gamepad": "LEFT STICK",
+            "keyboard": "S"
+        },
+        "INPUT_REPLAY_PREVIEW_AUDIO": {
+            "gamepad": "RT",
+            "keyboard": "SPACEBAR"
+        },
+        "INPUT_SCRIPT_PAD_UP": {
+            "gamepad": "DPAD UP",
+            "keyboard": "W"
+        },
+        "INPUT_TALK": {
+            "gamepad": "DPAD RIGHT",
+            "keyboard": "E"
+        },
+        "INPUT_VEH_SUB_THROTTLE_UP": {
+            "gamepad": "RT",
+            "keyboard": "W"
+        },
+        "INPUT_VEH_FLY_ATTACK2": {
+            "keyboard": "RIGHT MOUSE BUTTON"
+        },
+        "INPUT_VEH_SUB_TURN_LR": {
+            "gamepad": "LEFT STICK",
+            "keyboard": "NUMPAD 6"
+        },
+        "INPUT_VEH_FLY_SELECT_NEXT_WEAPON": {
+            "gamepad": "DPAD LEFT",
+            "keyboard": "SCROLLWHEEL UP"
+        },
+        "INPUT_CREATOR_RT": {
+            "gamepad": "RT",
+            "keyboard": "C"
+        },
+        "INPUT_LOOK_RIGHT": {
+            "gamepad": "RIGHT STICK",
+            "keyboard": "MOUSE RIGHT"
+        },
+        "INPUT_PHONE": {
+            "gamepad": "DPAD UP",
+            "keyboard": "ARROW UP"
+        },
+        "INPUT_PARACHUTE_BRAKE_LEFT": {
+            "gamepad": "LB",
+            "keyboard": "Q"
+        },
+        "INPUT_VEH_CIN_CAM": {
+            "gamepad": "B",
+            "keyboard": "R"
+        },
+        "INPUT_SELECT_WEAPON": {
+            "gamepad": "LB",
+            "keyboard": "TAB"
+        },
+        "INPUT_WEAPON_SPECIAL": {
+            "gamepad": "Y"
+        },
+        "INPUT_CELLPHONE_CAMERA_DOF": {
+            "gamepad": "LB",
+            "keyboard": "F"
+        },
+        "INPUT_PARACHUTE_PITCH_UD": {
+            "gamepad": "LEFT STICK",
+            "keyboard": "S"
+        },
+        "INPUT_ENTER": {
+            "gamepad": "Y",
+            "keyboard": "F"
+        },
+        "INPUT_VEH_FLY_VERTICAL_FLIGHT_MODE": {
+            "gamepad": "DPAD RIGHT",
+            "keyboard": "E"
+        },
+        "INPUT_VEH_FLY_SELECT_TARGET_LEFT": {
+            "gamepad": "LB",
+            "keyboard": "NUMPAD 7"
+        },
+        "INPUT_FRONTEND_UP": {
+            "gamepad": "DPAD UP",
+            "keyboard": "ARROW UP"
+        },
+        "INPUT_SELECT_CHARACTER_MICHAEL": {
+            "keyboard": "F5"
+        },
+        "INPUT_NEXT_CAMERA": {
+            "gamepad": "BACK",
+            "keyboard": "V"
+        },
+        "INPUT_HUDMARKER_SELECT": [],
+        "INPUT_ACCURATE_AIM": {
+            "gamepad": "R3",
+            "keyboard": "SCROLLWHEEL DOWN"
+        },
+        "INPUT_VEH_FLY_ATTACK_CAMERA": {
+            "gamepad": "R3",
+            "keyboard": "INSERT"
+        },
+        "INPUT_MOVE_RIGHT": {
+            "gamepad": "LEFT STICK",
+            "keyboard": "D"
+        },
+        "INPUT_RESPAWN_FASTER": [],
+        "INPUT_DUCK": {
+            "gamepad": "L3",
+            "keyboard": "LEFT CTRL"
+        },
+        "INPUT_VEH_FLY_COUNTER": {
+            "gamepad": "DPAD RIGHT",
+            "keyboard": "E"
+        },
+        "INPUT_VEH_SELECT_NEXT_WEAPON": {
+            "gamepad": "X",
+            "keyboard": "SCROLLWHEEL UP"
+        },
+        "INPUT_FRONTEND_RIGHT": {
+            "gamepad": "DPAD RIGHT",
+            "keyboard": "ARROW RIGHT"
+        },
+        "INPUT_VEH_BIKE_WINGS": {
+            "gamepad": "A",
+            "keyboard": "X"
+        },
+        "INPUT_REPLAY_TOGGLETIPS": {
+            "keyboard": "V"
+        },
+        "INPUT_SELECT_WEAPON_MELEE": {
+            "keyboard": "2"
+        },
+        "INPUT_FRONTEND_RIGHT_AXIS_X": {
+            "gamepad": "RIGHT STICK",
+            "keyboard": "]"
+        },
+        "INPUT_LOOK_DOWN": {
+            "gamepad": "RIGHT STICK",
+            "keyboard": "MOUSE DOWN"
+        },
+        "INPUT_VEH_DRIVE_LOOK2": {
+            "keyboard": "RIGHT MOUSE BUTTON"
+        },
+        "INPUT_VEH_ROCKET_BOOST": {
+            "gamepad": "L3",
+            "keyboard": "E"
+        },
+        "INPUT_CREATOR_DELETE": {
+            "gamepad": "X",
+            "keyboard": "DELETE"
+        },
+        "INPUT_VEH_MELEE_HOLD": {
+            "gamepad": "A",
+            "keyboard": "X"
+        },
+        "INPUT_REPLAY_ENDPOINT": {
+            "keyboard": "N"
+        },
+        "INPUT_CURSOR_ACCEPT": {
+            "keyboard": "LEFT MOUSE BUTTON"
+        },
+        "INPUT_SELECT_WEAPON_AUTO_RIFLE": {
+            "keyboard": "8"
+        },
+        "INPUT_VEH_PREV_RADIO": {
+            "keyboard": ","
+        },
+        "INPUT_VEH_MELEE_RIGHT": {
+            "gamepad": "RB",
+            "keyboard": "RIGHT MOUSE BUTTON"
+        },
+        "INPUT_VEH_MELEE_LEFT": {
+            "gamepad": "LB",
+            "keyboard": "LEFT MOUSE BUTTON"
+        },
+        "INPUT_VEH_CAR_JUMP": {
+            "gamepad": "L3",
+            "keyboard": "E"
+        },
+        "INPUT_SELECT_NEXT_WEAPON": {
+            "keyboard": "SCROLLWHEEL DOWN"
+        },
+        "INPUT_REPLAY_TIMELINE_DUPLICATE_CLIP": {
+            "keyboard": "C"
+        },
+        "INPUT_SWITCH_VISOR": {
+            "gamepad": "DPAD RIGHT",
+            "keyboard": "F11"
+        },
+        "INPUT_VEH_HYDRAULICS_CONTROL_LR": {
+            "gamepad": "LEFT STICK",
+            "keyboard": "LEFT CTRL"
+        },
+        "INPUT_VEH_ROOF": {
+            "gamepad": "DPAD RIGHT",
+            "keyboard": "H"
+        },
+        "INPUT_SNIPER_ZOOM_OUT_ONLY": {
+            "gamepad": "LEFT STICK",
+            "keyboard": "["
+        },
+        "INPUT_MELEE_ATTACK_ALTERNATE": {
+            "gamepad": "RT",
+            "keyboard": "LEFT MOUSE BUTTON"
+        },
+        "INPUT_VEH_GUN_UP": {
+            "gamepad": "RIGHT STICK",
+            "keyboard": "MOUSE RIGHT"
+        },
+        "INPUT_SNIPER_ZOOM_OUT_SECONDARY": {
+            "gamepad": "DPAD DOWN",
+            "keyboard": "["
+        },
+        "INPUT_VEH_HYDRAULICS_CONTROL_RIGHT": {
+            "gamepad": "LEFT STICK",
+            "keyboard": "D"
+        },
+        "INPUT_FRONTEND_DELETE": {
+            "gamepad": "X",
+            "keyboard": "DELETE"
+        },
+        "INPUT_VEH_HYDRAULICS_CONTROL_LEFT": {
+            "gamepad": "LEFT STICK",
+            "keyboard": "A"
+        },
+        "INPUT_SPECIAL_ABILITY_PC": {
+            "keyboard": "CAPSLOCK"
+        },
+        "INPUT_VEH_HYDRAULICS_CONTROL_TOGGLE": {
+            "gamepad": "A",
+            "keyboard": "X"
+        },
+        "INPUT_VEH_SLOWMO_DOWN_ONLY": {
+            "gamepad": "LEFT STICK",
+            "keyboard": "SCROLLWHEEL DOWN"
+        },
+        "INPUT_VEH_NEXT_RADIO": {
+            "keyboard": "."
+        },
+        "INPUT_VEH_SLOWMO_UP_ONLY": {
+            "gamepad": "LEFT STICK",
+            "keyboard": "SCROLLWHEEL UP"
+        },
+        "INPUT_REPLAY_TIMELINE_SAVE": {
+            "keyboard": "F5"
+        },
+        "INPUT_REPLAY_CTRL": {
+            "keyboard": "LEFT CTRL"
+        },
+        "INPUT_VEH_SUB_DESCEND": {
+            "gamepad": "A",
+            "keyboard": "LEFT CTRL"
+        },
+        "INPUT_REPLAY_TIMELINE_PLACE_CLIP": {
+            "keyboard": "V"
+        },
+        "INPUT_REPLAY_SNAPMATIC_PHOTO": {
+            "gamepad": "X",
+            "keyboard": "TAB"
+        },
+        "INPUT_REPLAY_TOGGLETIME": {
+            "keyboard": "C"
+        },
+        "INPUT_VEH_SUB_THROTTLE_DOWN": {
+            "gamepad": "LT",
+            "keyboard": "S"
+        },
+        "INPUT_SELECT_CHARACTER_MULTIPLAYER": {
+            "keyboard": "F8"
+        },
+        "INPUT_SELECT_WEAPON_HANDGUN": {
+            "keyboard": "6"
+        },
+        "INPUT_REPLAY_FOVINCREASE": {
+            "gamepad": "RB",
+            "keyboard": "NUMPAD +"
+        },
+        "INPUT_REPLAY_CYCLEMARKERRIGHT": {
+            "gamepad": "DPAD RIGHT",
+            "keyboard": "]"
+        },
+        "INPUT_SCRIPTED_FLY_LR": {
+            "gamepad": "LEFT STICK",
+            "keyboard": "D"
+        },
+        "INPUT_CELLPHONE_OPTION": {
+            "gamepad": "Y",
+            "keyboard": "DELETE"
+        },
+        "INPUT_VEH_DROP_PROJECTILE": {
+            "gamepad": "A",
+            "keyboard": "X"
+        },
+        "INPUT_CELLPHONE_LEFT": {
+            "gamepad": "DPAD LEFT",
+            "keyboard": "ARROW LEFT"
+        },
+        "INPUT_WEAPON_SPECIAL_TWO": {
+            "gamepad": "DPAD RIGHT",
+            "keyboard": "E"
+        },
+        "INPUT_ATTACK": {
+            "gamepad": "RT",
+            "keyboard": "LEFT MOUSE BUTTON"
+        },
+        "INPUT_VEH_FLY_THROTTLE_DOWN": {
+            "gamepad": "LT",
+            "keyboard": "S"
+        },
+        "INPUT_VEH_SUB_PITCH_UD": {
+            "gamepad": "LEFT STICK",
+            "keyboard": "NUMPAD 5"
+        },
+        "INPUT_FRONTEND_RLEFT": {
+            "gamepad": "X"
+        },
+        "INPUT_REPLAY_BACK": {
+            "gamepad": "DPAD LEFT",
+            "keyboard": "ARROW LEFT"
+        },
+        "INPUT_SELECT_WEAPON_HEAVY": {
+            "keyboard": "4"
+        },
+        "INPUT_REPLAY_RESTART": {
+            "gamepad": "BACK",
+            "keyboard": "R"
+        },
+        "INPUT_PARACHUTE_SMOKE": {
+            "gamepad": "A",
+            "keyboard": "X"
+        },
+        "INPUT_REPLAY_TOOLS": {
+            "gamepad": "DPAD DOWN",
+            "keyboard": "T"
+        },
+        "INPUT_SCRIPTED_FLY_ZUP": {
+            "gamepad": "LT",
+            "keyboard": "PAGEUP"
+        },
+        "INPUT_LOOK_UD": {
+            "gamepad": "RIGHT STICK",
+            "keyboard": "MOUSE DOWN"
+        },
+        "INPUT_REPLAY_ADVANCE": {
+            "gamepad": "DPAD RIGHT",
+            "keyboard": "ARROW RIGHT"
+        },
+        "INPUT_REPLAY_HIDEHUD": {
+            "gamepad": "R3",
+            "keyboard": "H"
+        },
+        "INPUT_VEH_GUN_RIGHT": {
+            "gamepad": "RIGHT STICK",
+            "keyboard": "MOUSE RIGHT"
+        },
+        "INPUT_REPLAY_SCREENSHOT": {
+            "gamepad": "DPAD UP",
+            "keyboard": "U"
+        },
+        "INPUT_REPLAY_RECORD": {
+            "keyboard": "S"
+        },
+        "INPUT_SAVE_REPLAY_CLIP": {
+            "gamepad": "B",
+            "keyboard": "F3"
+        },
+        "INPUT_MULTIPLAYER_INFO": {
+            "gamepad": "DPAD DOWN",
+            "keyboard": "Z"
+        },
+        "INPUT_REPLAY_NEWMARKER": {
+            "gamepad": "A",
+            "keyboard": "M"
+        },
+        "INPUT_REPLAY_FFWD": {
+            "gamepad": "RB",
+            "keyboard": "ARROW UP"
+        },
+        "INPUT_REPLAY_REWIND": {
+            "gamepad": "LB",
+            "keyboard": "ARROW DOWN"
+        },
+        "INPUT_REPLAY_MARKER_DELETE": {
+            "gamepad": "X",
+            "keyboard": "DELETE"
+        },
+        "INPUT_SCALED_LOOK_RIGHT_ONLY": {
+            "gamepad": "RIGHT STICK"
+        },
+        "INPUT_VEH_STUNT_UD": [],
+        "INPUT_SCRIPT_RT": {
+            "gamepad": "RT",
+            "keyboard": "LEFT MOUSE BUTTON"
+        },
+        "INPUT_SCALED_LOOK_DOWN_ONLY": {
+            "gamepad": "RIGHT STICK"
+        },
+        "INPUT_NEXT_WEAPON": {
+            "gamepad": "DPAD RIGHT",
+            "keyboard": "SCROLLWHEEL DOWN"
+        },
+        "INPUT_SNIPER_ZOOM": {
+            "gamepad": "LEFT STICK",
+            "keyboard": "["
+        },
+        "INPUT_VEH_FLY_PITCH_UD": {
+            "gamepad": "LEFT STICK",
+            "keyboard": "NUMPAD 5"
+        },
+        "INPUT_SCALED_LOOK_UP_ONLY": {
+            "gamepad": "RIGHT STICK"
+        },
+        "INPUT_SCALED_LOOK_UD": {
+            "gamepad": "RIGHT STICK",
+            "keyboard": "MOUSE DOWN"
+        },
+        "INPUT_SCALED_LOOK_LR": {
+            "gamepad": "RIGHT STICK",
+            "keyboard": "MOUSE RIGHT"
+        },
+        "INPUT_REPLAY_START_STOP_RECORDING_SECONDARY": {
+            "gamepad": "X",
+            "keyboard": "F2"
+        },
+        "INPUT_MP_TEXT_CHAT_TEAM": {
+            "keyboard": "Y"
+        },
+        "INPUT_FRONTEND_X": {
+            "gamepad": "X",
+            "keyboard": "SPACEBAR"
+        },
+        "INPUT_VEH_LOOK_LEFT": {
+            "gamepad": "RIGHT STICK",
+            "keyboard": "MOUSE RIGHT"
+        },
+        "INPUT_RELOAD": {
+            "gamepad": "B",
+            "keyboard": "R"
+        },
+        "INPUT_VEH_MOVE_DOWN": {
+            "gamepad": "LEFT STICK",
+            "keyboard": "LEFT CTRL"
+        },
+        "INPUT_CREATOR_ACCEPT": {
+            "gamepad": "A",
+            "keyboard": "SPACEBAR"
+        },
+        "INPUT_LOOK_DOWN_ONLY": {
+            "gamepad": "RIGHT STICK",
+            "keyboard": "MOUSE DOWN"
+        },
+        "INPUT_VEH_MOVE_RIGHT": {
+            "gamepad": "LEFT STICK",
+            "keyboard": "D"
+        },
+        "INPUT_VEH_HEADLIGHT": {
+            "gamepad": "DPAD RIGHT",
+            "keyboard": "H"
+        },
+        "INPUT_SCRIPT_LT": {
+            "gamepad": "LT"
+        },
+        "INPUT_VEH_MOVE_LEFT": {
+            "gamepad": "LEFT STICK",
+            "keyboard": "D"
+        },
+        "INPUT_MELEE_ATTACK_LIGHT": {
+            "gamepad": "B",
+            "keyboard": "R"
+        },
+        "INPUT_VEH_FLY_MOUSE_CONTROL_OVERRIDE": {
+            "keyboard": "LEFT MOUSE BUTTON"
+        },
+        "INPUT_VEH_GUN_UD": {
+            "gamepad": "RIGHT STICK",
+            "keyboard": "MOUSE DOWN"
+        },
+        "INPUT_FRONTEND_LT": {
+            "gamepad": "LT",
+            "keyboard": "PAGE DOWN"
+        },
+        "INPUT_SNIPER_ZOOM_IN_ALTERNATE": {
+            "gamepad": "LEFT STICK",
+            "keyboard": "["
+        },
+        "INPUT_WHISTLE": [],
+        "INPUT_MELEE_ATTACK2": {
+            "gamepad": "A",
+            "keyboard": "Q"
+        },
+        "INPUT_MELEE_ATTACK1": {
+            "gamepad": "B",
+            "keyboard": "R"
+        },
+        "INPUT_RAPPEL_SMASH_WINDOW": {
+            "gamepad": "RT"
+        },
+        "INPUT_VEH_MOVE_DOWN_ONLY": {
+            "gamepad": "LEFT STICK",
+            "keyboard": "LEFT CTRL"
+        },
+        "INPUT_CREATOR_LT": {
+            "gamepad": "LT",
+            "keyboard": "X"
+        },
+        "INPUT_FRONTEND_RIGHT_AXIS_Y": {
+            "gamepad": "RIGHT STICK",
+            "keyboard": "SCROLLWHEEL DOWN"
+        },
+        "INPUT_ATTACK2": {
+            "gamepad": "RT",
+            "keyboard": "LEFT MOUSE BUTTON"
+        },
+        "INPUT_FRONTEND_SOCIAL_CLUB_SECONDARY": {
+            "gamepad": "RB",
+            "keyboard": "HOME"
+        },
+        "INPUT_SCRIPT_LS": {
+            "gamepad": "L3"
+        },
+        "INPUT_HUD_SPECIAL": {
+            "gamepad": "DPAD DOWN",
+            "keyboard": "Z"
+        },
+        "INPUT_WEAPON_WHEEL_PREV": {
+            "gamepad": "DPAD LEFT",
+            "keyboard": "SCROLLWHEEL UP"
+        },
+        "INPUT_FRONTEND_RUP": {
+            "gamepad": "Y",
+            "keyboard": "TAB"
+        },
+        "INPUT_VEH_MOVE_RIGHT_ONLY": {
+            "gamepad": "LEFT STICK",
+            "keyboard": "D"
+        },
+        "INPUT_SCRIPT_PAD_RIGHT": {
+            "gamepad": "DPAD RIGHT",
+            "keyboard": "D"
+        },
+        "INPUT_SELECT_CHARACTER_FRANKLIN": {
+            "keyboard": "F6"
+        },
+        "INPUT_VEH_FLY_SELECT_TARGET_RIGHT": {
+            "gamepad": "RB",
+            "keyboard": "NUMPAD 9"
+        },
+        "INPUT_REPLAY_CAMERAUP": {
+            "keyboard": "PAGE UP"
+        },
+        "INPUT_CINEMATIC_SLOWMO": {
+            "gamepad": "R3"
+        },
+        "INPUT_VEH_HOTWIRE_RIGHT": {
+            "gamepad": "RT",
+            "keyboard": "S"
+        },
+        "INPUT_SNIPER_ZOOM_IN_SECONDARY": {
+            "gamepad": "DPAD UP",
+            "keyboard": "]"
+        },
+        "INPUT_VEH_RADIO_WHEEL": {
+            "gamepad": "DPAD LEFT",
+            "keyboard": "Q"
+        },
+        "INPUT_PICKUP": {
+            "gamepad": "LB",
+            "keyboard": "E"
+        },
+        "INPUT_SCRIPT_RDOWN": {
+            "gamepad": "A",
+            "keyboard": "LEFT MOUSE BUTTON"
+        },
+        "INPUT_VEH_SUB_MOUSE_CONTROL_OVERRIDE": {
+            "keyboard": "LEFT MOUSE BUTTON"
+        },
+        "INPUT_RAPPEL_LONG_JUMP": {
+            "gamepad": "X"
+        },
+        "INPUT_COVER": {
+            "gamepad": "RB",
+            "keyboard": "Q"
+        },
+        "INPUT_VEH_HANDBRAKE": {
+            "gamepad": "RB",
+            "keyboard": "SPACEBAR"
+        },
+        "INPUT_VEH_HYDRAULICS_CONTROL_UP": {
+            "gamepad": "LEFT STICK",
+            "keyboard": "LEFT SHIFT"
+        },
+        "INPUT_LOOK_LR": {
+            "gamepad": "RIGHT STICK",
+            "keyboard": "MOUSE RIGHT"
+        },
+        "INPUT_SELECT_WEAPON_UNARMED": {
+            "keyboard": "1"
+        },
+        "INPUT_VEH_NEXT_RADIO_TRACK": {
+            "keyboard": "="
+        },
+        "INPUT_CELLPHONE_RIGHT": {
+            "gamepad": "DPAD RIGHT",
+            "keyboard": "ARROW RIGHT"
+        },
+        "INPUT_WEAPON_WHEEL_UD": {
+            "gamepad": "RIGHT STICK",
+            "keyboard": "MOUSE DOWN"
+        },
+        "INPUT_CELLPHONE_UP": {
+            "gamepad": "DPAD UP",
+            "keyboard": "ARROW UP"
+        },
+        "INPUT_FRONTEND_ACCEPT": {
+            "gamepad": "A",
+            "keyboard": "ENTER"
+        },
+        "INPUT_VEH_PUSHBIKE_SPRINT": {
+            "gamepad": "A",
+            "keyboard": "CAPSLOCK"
+        },
+        "INPUT_SCRIPT_RUP": {
+            "gamepad": "Y",
+            "keyboard": "RIGHT MOUSE BUTTON"
+        },
+        "INPUT_SELECT_WEAPON_SNIPER": {
+            "keyboard": "9"
+        },
+        "INPUT_VEH_CINEMATIC_DOWN_ONLY": {
+            "keyboard": "SCROLLWHEEL DOWN"
+        },
+        "INPUT_VEH_ATTACK2": {
+            "gamepad": "A",
+            "keyboard": "RIGHT MOUSE BUTTON"
+        },
+        "INPUT_JUMP": {
+            "gamepad": "X",
+            "keyboard": "SPACEBAR"
+        },
+        "INPUT_LOOK_BEHIND": {
+            "gamepad": "R3",
+            "keyboard": "C"
+        },
+        "INPUT_VEH_PASSENGER_ATTACK": {
+            "gamepad": "RT",
+            "keyboard": "LEFT MOUSE BUTTON"
+        },
+        "INPUT_VEH_MOUSE_CONTROL_OVERRIDE": {
+            "keyboard": "LEFT MOUSE BUTTON"
+        },
+        "INPUT_VEH_HOTWIRE_LEFT": {
+            "gamepad": "LT",
+            "keyboard": "W"
+        },
+        "INPUT_FRONTEND_LB": {
+            "gamepad": "LB",
+            "keyboard": "Q"
+        },
+        "INPUT_PARACHUTE_TURN_RIGHT_ONLY": {
+            "gamepad": "LEFT STICK",
+            "keyboard": "D"
+        },
+        "INPUT_PARACHUTE_PRECISION_LANDING": {
+            "keyboard": "LEFT SHIFT"
+        },
+        "INPUT_CELLPHONE_DOWN": {
+            "gamepad": "DPAD DOWN",
+            "keyboard": "ARROW DOWN"
+        },
+        "INPUT_CELLPHONE_CAMERA_GRID": {
+            "gamepad": "RB",
+            "keyboard": "G"
+        },
+        "INPUT_SELECT_WEAPON_SHOTGUN": {
+            "keyboard": "3"
+        },
+        "INPUT_CURSOR_CANCEL": {
+            "keyboard": "RIGHT MOUSE BUTTON"
+        },
+        "INPUT_MOVE_RIGHT_ONLY": {
+            "gamepad": "LEFT STICK",
+            "keyboard": "D"
+        },
+        "INPUT_REPLAY_SHOWHOTKEY": {
+            "gamepad": "DPAD DOWN",
+            "keyboard": "K"
+        },
+        "INPUT_VEH_AIM": {
+            "gamepad": "LB",
+            "keyboard": "RIGHT MOUSE BUTTON"
+        },
+        "INPUT_SCRIPT_RS": {
+            "gamepad": "R3"
+        },
+        "INPUT_SKIP_CUTSCENE": {
+            "gamepad": "A",
+            "keyboard": "ENTER"
+        },
+        "INPUT_VEH_MOVE_LR": {
+            "gamepad": "LEFT STICK",
+            "keyboard": "D"
+        },
+        "INPUT_PARACHUTE_DEPLOY": {
+            "gamepad": "Y",
+            "keyboard": "F"
+        },
+        "INPUT_VEH_FLY_YAW_RIGHT": {
+            "gamepad": "RB",
+            "keyboard": "D"
+        },
+        "INPUT_SCRIPT_PAD_DOWN": {
+            "gamepad": "DPAD DOWN",
+            "keyboard": "S"
+        },
+        "INPUT_VEH_LOOK_BEHIND": {
+            "gamepad": "R3",
+            "keyboard": "C"
+        },
+        "INPUT_WEAPON_WHEEL_NEXT": {
+            "gamepad": "DPAD RIGHT",
+            "keyboard": "SCROLLWHEEL DOWN"
+        },
+        "INPUT_REPLAY_PREVIEW": {
+            "keyboard": "SPACEBAR"
+        },
+        "INPUT_REPLAY_CYCLEMARKERLEFT": {
+            "gamepad": "DPAD LEFT",
+            "keyboard": "["
+        },
+        "INPUT_REPLAY_CAMERADOWN": {
+            "keyboard": "PAGE DOWN"
+        },
+        "INPUT_PARACHUTE_PITCH_UP_ONLY": {
+            "gamepad": "LEFT STICK",
+            "keyboard": "W"
+        },
+        "INPUT_FRONTEND_RRIGHT": {
+            "gamepad": "B",
+            "keyboard": "BACKSPACE"
+        },
+        "INPUT_VEH_PREV_RADIO_TRACK": {
+            "keyboard": "-"
+        },
+        "INPUT_LOOK_LEFT_ONLY": {
+            "gamepad": "RIGHT STICK"
+        },
+        "INPUT_FRONTEND_PAUSE": {
+            "gamepad": "START",
+            "keyboard": "P"
+        },
+        "INPUT_VEH_GRAPPLING_HOOK": {
+            "gamepad": "DPAD RIGHT",
+            "keyboard": "E"
+        },
+        "INPUT_FRONTEND_LEADERBOARD": {
+            "gamepad": "RB",
+            "keyboard": "TAB"
+        },
+        "INPUT_SCRIPTED_FLY_ZDOWN": {
+            "gamepad": "RT",
+            "keyboard": "PAGEDOWN"
+        },
+        "INPUT_FRONTEND_CANCEL": {
+            "gamepad": "B",
+            "keyboard": "BACKSPACE"
+        },
+        "INPUT_CELLPHONE_CAMERA_FOCUS_LOCK": {
+            "gamepad": "RT",
+            "keyboard": "L"
+        },
+        "INPUT_FRONTEND_Y": {
+            "gamepad": "Y",
+            "keyboard": "TAB"
+        },
+        "INPUT_VEH_FLY_YAW_LEFT": {
+            "gamepad": "LB",
+            "keyboard": "A"
+        },
+        "INPUT_VEH_GUN_LEFT": {
+            "gamepad": "RIGHT STICK",
+            "keyboard": "MOUSE RIGHT"
+        },
+        "INPUT_FRONTEND_RT": {
+            "gamepad": "RT",
+            "keyboard": "PAGE UP"
+        },
+        "INPUT_PUSH_TO_TALK": {
+            "keyboard": "N"
+        },
+        "INPUT_FRONTEND_PAUSE_ALTERNATE": {
+            "keyboard": "ESC"
+        },
+        "INPUT_VEH_SUB_TURN_HARD_LEFT": {
+            "gamepad": "LB",
+            "keyboard": "A"
+        },
+        "INPUT_CELLPHONE_EXTRA_OPTION": {
+            "gamepad": "X",
+            "keyboard": "SPACEBAR"
+        },
+        "INPUT_VEH_EXIT": {
+            "gamepad": "Y",
+            "keyboard": "F"
+        },
+        "INPUT_CURSOR_X": [],
+        "INPUT_CURSOR_SCROLL_UP": {
+            "keyboard": "SCROLLWHEEL UP"
+        },
+        "INPUT_ENTER_CHEAT_CODE": {
+            "keyboard": "~"
+        }
+    }
+}
