@@ -1,13 +1,15 @@
 # OpenCrimeV Wiki
 
 The player manual for [OpenCrimeV](https://www.opencrimev.com), a cops & robbers freeroam
-server on FiveM. The same pages are served two ways:
+server on FiveM. This repo is **the content only** — Markdown pages, the page tree and a
+few images. Two readers draw it:
 
-- **in game** — `F4` / `/help <page>`, rendered by the `oc-helpui` resource from a bundled
-  snapshot of this repo, refreshed from GitHub when the client has internet
-- **on the web** — <https://wiki.opencrimev.com>, built from this repo by GitHub Actions
+- **on the web** — <https://wiki.opencrimev.com> reads this repo from GitHub on every visit
+- **in game** — `F4` / `/help <page>`, the `oc-helpui` resource reads the same files when
+  the player opens the wiki
 
-One renderer, one content tree, two shells. Nothing is written twice.
+There is no build and nothing to deploy: merge a change here and both show it within a few
+minutes. Nothing is written twice.
 
 ## Editing a page
 
@@ -17,12 +19,11 @@ Every page is a Markdown file under `content/`. To fix or add something:
    the right file).
 2. Edit `content/<category>/<page>.md`. Keep the front matter (`title`, `description`,
    `icon`) and stay under ~1 200 words; split rather than scroll.
-3. Open a pull request. The check runs `python tools/build.py --check --render`; it fails on
-   a missing page, a broken link or anchor, an unknown `{var:…}` / `{key:…}` placeholder, or a
-   parser error. Fix what it names and push again.
+3. Open a pull request. The check runs `python tools/check.py`; it fails on a missing page,
+   a broken link or anchor, or an unknown `{var:…}` / `{key:…}` placeholder. Fix what it
+   names and push again.
 
-A maintainer merges, the site rebuilds, and the next `oc-helpui` release (or the live refresh)
-takes it in game.
+A maintainer merges, and that is it.
 
 ### Adding a page
 
@@ -55,20 +56,19 @@ server no longer has:
 | `{{commands:user}}` | the generated command table (`docs/wiki_commands.json`) |
 
 Links between pages: `[text](wiki:jobs/police#ranks)`, or a sibling by name from inside the
-same category (`[text](police)`).
+same category (`[text](police)`). Images: `![alt](assets/name.webp)`, webp, ≤ 300 KB.
 
 The three `docs/wiki_*.json` files are **dumped by the gamemode** (`/wikivars` on the server)
 and committed here; do not edit them by hand — a new number in the game means a new dump.
 
-## Preview locally
+## Check locally
 
 ```sh
-python tools/build.py            # validates, writes dist/
-python -m http.server 8000       # from the repo root
-# open http://localhost:8000/web/
+python tools/check.py
 ```
 
-`--render` additionally runs every page through `renderer/md.js` under Node.
+Stdlib only. To *see* a page you need the website shell, which is a separate (private)
+repo; maintainers run it against a checkout of this one.
 
 ## Layout
 
@@ -76,15 +76,9 @@ python -m http.server 8000       # from the repo root
 wiki.json            the tree: order, titles, icons, site links
 content/**/*.md      the pages
 assets/              images (webp, ≤ 300 KB each)
-renderer/            the shared renderer: md.js, wiki.js, wiki.css, fonts/
-web/index.html       the website shell
-tools/build.py       validation + dist/ (stdlib only)
 docs/wiki_*.json     the gamemode's dumps (vars, keys, commands)
-dist/                build output, not committed
+tools/check.py       the pull-request check
 ```
-
-`renderer/` is copied verbatim into `oc-helpui` by its sync tool; a change here ships to
-both hosts.
 
 ## License
 
