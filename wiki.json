@@ -37,6 +37,10 @@
       "pages": ["houses", "rentals", "warehouses", "wardrobe-and-storage"]
     },
     {
+      "category": "crews", "title": "Crews", "icon": "tag",
+      "pages": ["overview"]
+    },
+    {
       "category": "activities", "title": "Activities", "icon": "trophy",
       "pages": ["races", "shooting-range", "simeon-contracts", "events", "animations"]
     },
