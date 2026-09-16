@@ -38,7 +38,7 @@ RE_GENERATED = re.compile(r"\{\{(\w+)(?::(\w+))?\}\}")
 
 ALLOWED_FRONT = {"title", "description", "icon"}
 PLACEHOLDER_KINDS = {"key", "kbd", "var", "money", "discord", "website", "repo"}
-GENERATED_KINDS = {"commands"}
+GENERATED_KINDS = {"commands", "recent"}   # {{commands:<group>}} table; {{recent}} edit history (drawn by the reader)
 
 
 class Check:

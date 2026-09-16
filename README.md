@@ -54,6 +54,7 @@ server no longer has:
 | `{kbd:F4}` | a literal keycap |
 | `{discord}` `{website}` `{repo}` | links from `wiki.json` |
 | `{{commands:user}}` | the generated command table (`docs/wiki_commands.json`) |
+| `{{recent}}` | the latest commits to `content/`, read from GitHub when the page is opened (alone on a line) |
 
 Links between pages: `[text](wiki:jobs/police#ranks)`, or a sibling by name from inside the
 same category (`[text](police)`). Images: `![alt](assets/name.webp)`, webp, ≤ 300 KB.

@@ -45,6 +45,7 @@
       "pages": ["keybinds", "commands"]
     },
     { "page": "faq", "title": "FAQ", "icon": "question" },
+    { "page": "recent-edits", "title": "Recent edits", "icon": "history" },
     { "link": "https://www.opencrimev.com", "title": "Website", "icon": "globe" },
     { "link": "https://discord.gg/PMQ8nUKTT8", "title": "Discord", "icon": "discord" }
   ]
