@@ -36,21 +36,21 @@ Somebody with the *Invite* permission invites you with `/crewinvite <id>` or fro
 
 ## Levels
 
-Everything the crew does earns crew XP: every job payout gives a share, Simeon contracts give more — and finishing one with a crew-mate in the same group pays a bonus. Levelling up raises the member cap (from {var:crews.memberCap.base}) and the garage slots (from {var:crews.garageSlots.base}). Max level is {var:crews.maxLevel}. `/crews` lists every crew by level.
+Everything the crew does earns crew XP: every job payout gives a share, Simeon contracts give more — and finishing one with a crew-mate in the same group pays a bonus. Levelling up raises the member cap (from {var:crews.memberCap.base}) and unlocks the garage floors and other investments. Max level is {var:crews.maxLevel}. `/crews` lists every crew by level.
 
 ## Office
 
-Your crew's office is behind the lobby. Every member shares it and you meet each other inside; a member can invite guests with `/invite` like any property. Two points inside run the crew: the **reception desk** (everybody: overview, roster, invites, the bank) and the **CEO computer** (CEO and co-leaders: ranks and permissions, investments, rewards, crew vehicles, settings). The **lift** leaves the building or goes down to the crew garage. `/crew` shows your crew card anywhere.
+Your crew's office is behind the lobby. Every member shares it and you meet each other inside; a member can invite guests with `/invite` like any property. Two points inside run the crew: the **reception desk** (everybody: overview, roster, invites, the bank) and the **CEO computer** (CEO and co-leaders: ranks and permissions, investments, rewards, crew vehicles, settings). The **lift** leaves the building or goes down to the crew garage. `/crew` shows your crew card anywhere. Type `{var:crews.chat.prefix}text` in the chat box to talk to every crew member online — nobody else sees it.
 
 ## Garage
 
-Every member parks **their own** vehicles in the crew garage; the slot count is the crew's. The street door parks and releases cars, the lift inside the office walks you in. **Driving is the only way in and out** — nothing is moved into or out of the crew garage from a garage menu or *My Vehicles*. Changing parking slots at the management point needs the *Garage slots* permission. Leave the crew and those cars are unreachable until you are in a crew based at that building again — fetch them from *My Vehicles* like a car in a garage you no longer own.
+Every member parks **their own** vehicles in the crew garage — the office garage under the building, up to {var:crews.garage.maxFloors} floors of {var:crews.garage.slotsPerFloor} spaces each. Every crew starts with floor 1; the next floor is an investment at the CEO computer, and the lift inside the garage takes you between the floors the crew owns, back up to the office, or out to the street. The street door parks and releases cars (a car takes the first free space, so it may land on a higher floor), the lift inside the office walks you in. **Driving is the only way in and out** — nothing is moved into or out of the crew garage from a garage menu or *My Vehicles*. Changing parking slots at the management point needs the *Garage slots* permission. Leave the crew and those cars are unreachable until you are in a crew based at that building again — fetch them from *My Vehicles* like a car in a garage you no longer own.
 
 ## Bank
 
 Any member deposits **cash** at the reception desk; deposits are final. **Nobody withdraws** — the bank only ever pays for what the crew buys, at the CEO computer:
 
-- **investments** — extra garage slots and an extra member slot, permanent;
+- **investments** — the next garage floor and an extra member slot, permanent;
 - **rewards** — see below;
 - **crew vehicles** — see below.
 
@@ -66,7 +66,7 @@ The CEO, or a member with the *Rewards* permission, pays bonuses from the crew b
 
 ## Crew vehicles
 
-At a showroom, a member with the *Buy vehicles* permission sees a second button, **Buy for crew** — the car is paid from the crew bank and delivered to the crew garage. It belongs to the crew: it cannot be sold at a dealer, it parks only in the crew garage, and it follows the CEO post when leadership changes. Until the crew garage gets its shared floor, **the CEO drives it**. The CEO computer's Vehicles list sells a crew vehicle back into the crew bank.
+At a showroom, a member with the *Buy vehicles* permission sees a second button, **Buy for crew** — the car is paid from the crew bank and delivered to the crew garage. It belongs to the crew: it is never sold for cash, it parks only in the crew garage, and it follows the CEO post when leadership changes. Until the crew garage gets its shared floor, **the CEO drives it**. A member with the *Buy vehicles* permission sells a crew vehicle back **into the crew bank** — from the CEO computer's Vehicles list or from any showroom's garage view, where every member can see the crew's cars (the car has to be parked and the CEO online).
 
 ## Settings
 
