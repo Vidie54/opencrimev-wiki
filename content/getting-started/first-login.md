@@ -15,7 +15,7 @@ You can change it in game once per a set number of playtime hours: **Interaction
 
 ## Character creator
 
-A new account goes through the character creator: sex, heritage, face, hair, clothes. Nothing here is final — the barber, clothing stores and the wardrobe in a house can change all of it later. See [Shops](wiki:economy/shops).
+A new character first sees a rules summary. Open the rules wiki, close it to return, then accept the rules to enter the creator. Choose gender, parents, resemblance, hair and starting clothes. Read [Character creation](wiki:getting-started/character-creation) for camera controls, randomization and completing setup. Later barber and clothing visits offer their own options; choose your inherited appearance carefully.
 
 ## The tutorial and the spawn
 

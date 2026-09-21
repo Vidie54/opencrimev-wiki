@@ -10,7 +10,7 @@
     { "page": "index", "title": "Welcome", "icon": "book" },
     {
       "category": "getting-started", "title": "Getting Started", "icon": "flag",
-      "pages": ["first-login", "starter-pack", "new-player-protection", "hud-and-keys", "interaction-menu", "chat-and-voice"]
+      "pages": ["first-login", "character-creation", "starter-pack", "new-player-protection", "hud-and-keys", "interaction-menu", "chat-and-voice"]
     },
     {
       "category": "rules", "title": "Server Rules", "icon": "gavel",
