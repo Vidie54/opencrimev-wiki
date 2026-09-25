@@ -1,7 +1,7 @@
 {
   "site": {
     "name": "OpenCrimeV Wiki",
-    "discord": "https://discord.opencrimev.com",
+    "discord": "https://opencrimev.com/discord/",
     "website": "https://www.opencrimev.com",
     "repo": "https://github.com/Vidie54/opencrimev-wiki",
     "branch": "main"
@@ -51,6 +51,6 @@
     { "page": "faq", "title": "FAQ", "icon": "question" },
     { "page": "recent-edits", "title": "Recent edits", "icon": "history" },
     { "link": "https://www.opencrimev.com", "title": "Website", "icon": "globe" },
-    { "link": "https://discord.opencrimev.com", "title": "Discord", "icon": "discord" }
+    { "link": "https://opencrimev.com/discord/", "title": "Discord", "icon": "discord" }
   ]
 }
